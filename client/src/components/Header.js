@@ -1,5 +1,5 @@
 import logo from '../images/traventure-logo.png';
-import avatar from '../images/profile-picture.png';
+import avatar from '../images/profile-photo.jpg';
 import {Link} from 'react-router-dom';
 
 const Header = () => {

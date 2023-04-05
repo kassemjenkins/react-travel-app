@@ -105,7 +105,7 @@ app.post('/create', async (req, res) => {
 })
 
 // Delete a post
-app.delete('delete/:postId', async (req, res) => {
+app.delete('/delete/:postId', async (req, res) => {
     const id = req.params.postId;
     const url = `${process.env.ASTRA_URL}/${id}`;
 
